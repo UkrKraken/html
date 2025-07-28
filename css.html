@@ -21,28 +21,28 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="ICON/apple-touch-icon.png"
+      href="/html-main/icon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="ICON/favicon-32x32.png"
+      href="/html-main/icon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="ICON/favicon-16x16.png"
+      href="/html-main/icon/favicon-16x16.png"
     />
-    <link rel="manifest" href="ICON/site.webmanifest" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="/html-main/json/site.webmanifest" />
+    <link rel="stylesheet" href="/html-main/css/style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand p-0" href="index.html">
-          <img src="icon.png" alt="Logo" width="77" />
+          <img src="/html-main/icon/icon.png" alt="Logo" width="77" />
         </a>
         <button
           class="navbar-toggler"
@@ -61,131 +61,126 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="fav-places.html"
-                >Favorite places</a
-              >
-            </li>
+              <a class="nav-link" href="fav-places.html">Favorite places</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#"
-                >My css</a
-              >
+              <a class="nav-link active" href="css.html">My css</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-
     <div class="container">
-        <div class="info">
-            <img class="avatar" src="img.jpg" alt="My photo">
-            <div class="info-text">
-                <h1>
-                    Кирилл Сгущенка
-                </h1>
-                <p>
-                    Я обычный школьник начавший изучать <strong>Web-coding</strong>
-                </p>
-                <p>
-                    Я начал изучать <strong>HTML</strong>, на сегодня я изучил также <strong>CSS</strong>, что можно увидеть на этой странице
-                </p>
-                <h4>Мои социальные сети</h4>
-                        <a href="https://www.instagram.com/kkkkiiiirrrriiiilllll/" target="_blank"
-                            >Instagram</a
-                        >
-                        |
-                        <a target="_blank" href="https://t.me/soda1238">Telegram</a>
+      <div class="info">
+        <img class="avatar" src="/html-main/icon/img.jpg" alt="My photo" />
+        <div class="info-text">
+          <h1>Кирилл Сгущенка</h1>
+          <p>Я обычный школьник начавший изучать <strong>Web-coding</strong></p>
+          <p>
+            Я начал изучать <strong>HTML</strong>, на сегодня я изучил также
+            <strong>CSS</strong>, что можно увидеть на этой странице
+          </p>
+          <h4>Мои социальные сети</h4>
+          <a
+            href="https://www.instagram.com/kkkkiiiirrrriiiilllll/"
+            target="_blank"
+            >Instagram</a
+          >
+          |
+          <a target="_blank" href="https://t.me/soda1238">Telegram</a>
+        </div>
+      </div>
+      <div class="card bg-yellow">
+        <h2>Все что хочу изучить</h2>
+        <ol class="list">
+          <li>
+            <s>HTML</s>
+          </li>
+          <li>
+            <s>CSS</s>
+          </li>
+          <li>JS(JavaScript)</li>
+          <li>React</li>
+        </ol>
+      </div>
+      <div class="card bg-green">
+        <h2>За сколько можно стать Junior?</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>2-3 недели</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>1-2 месяца</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>2-3 месяца</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>2-3 месяца</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card bg-red">
+        <ul class="table list link-list">
+          <h2>По каким видео я учился, и не только</h2>
+          <li>
+            <a
+              target="_blank"
+              href="https://youtu.be/W4MIiV4nZDY?si=f02CMZO94se-2Ole"
+              >HTML - Полный Курс HTML Для Начинающих [3 ЧАСА]</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://youtu.be/SpCUuyZZTp8?si=r39gLIgLXeiIzx0A"
+              >CSS для Начинающих - Практический Курс</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://youtu.be/fcMcf_4PjfI?si=TAH_t4YiuW4zms7Z"
+              >JavaScript c Нуля - Курс для начинающих С ПРАКТИКОЙ (2025)</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Поделись своим опытом!</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите ваше имя..." />
             </div>
-        </div>
-        <div class="card bg-yellow">
-            <h2>Все что хочу изучить</h2>
-            <ol class="list">
-                <li>
-                    <s>HTML</s>
-                </li>
-                <li>
-                    <s>CSS</s>
-                </li>
-                <li>
-                    JS(JavaScript)
-                </li>
-                <li>
-                    React
-                </li>
-            </ol>
-        </div>
-        <div class="card bg-green">
-            <h2>За сколько можно стать Junior?</h2>
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td>HTML</td>
-                        <td>2-3 недели</td>
+          </div>
 
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td>1-2 месяца</td>
-                    </tr>
-                    <tr>
-                        <td>JavaScript</td>
-                        <td>2-3 месяца</td>
-                    </tr>
-                    <tr>
-                        <td>React</td>
-                        <td>2-3 месяца</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="card bg-red">
-            <ul class="table list link-list">
-                <h2>По каким видео я учился, и не только</h2>
-                <li>
-                    <a target="_blank" href="https://youtu.be/W4MIiV4nZDY?si=f02CMZO94se-2Ole">HTML - Полный Курс HTML Для Начинающих [3 ЧАСА]</a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://youtu.be/SpCUuyZZTp8?si=r39gLIgLXeiIzx0A">CSS для Начинающих - Практический Курс</a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://youtu.be/fcMcf_4PjfI?si=TAH_t4YiuW4zms7Z">JavaScript c Нуля - Курс для начинающих С ПРАКТИКОЙ (2025)</a>
-                </li>
-            </ul>
+          <div class="form-group">
+            <label for="text">Вашe сообщение:</label>
+            <textarea id="text" rows="2" cols="15"></textarea>
+          </div>
 
-
-            
-        </div>
-
-        <div class="contact">
-            <h2>Поделись своим опытом!</h2>
-              <form action="/">
-                
-                <div class="row">
-                  <div class="form-group">
-                    <label for="name">Ваше имя:</label>
-                    <input type="text" id="name" placeholder="Введите ваше имя..." />
-                  </div>
-                </div>
-                
-                <div class="form-group">
-                <label for="text">Вашe сообщение:</label>
-                <textarea id="text" rows="2" cols="15"></textarea>
-                </div>
-              
-                
-  
-  
-  
-  
-                <input class="btn" type="button" value="Отправить!" />
-              </form>
-            </div>
-
-
-
-
-
+          <!-- <input id="send" class="btn" type="button" value="Отправить!" /> -->
+          <!-- <button class="btn btn-outline-primary" type="button" id="submit">
+            Send!
+          </button> -->
+          <div id="liveAlertPlaceholder"></div>
+          <button type="button" class="btn btn-primary" id="liveAlertBtn">
+            Send!
+          </button>
+        </form>
+      </div>
     </div>
-    <div style="margin-bottom: 70px;"></div>
+    <div style="margin-bottom: 70px"></div>
+    <script src="/html-main/assets/css.js"></script>
   </body>
+</html>
